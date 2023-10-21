@@ -1,0 +1,794 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: yellow;
+    width:auto;
+    height:100px;
+    border:10px solid lightskyblue;
+    display:flex;
+    justify-content: space-evenly;
+}
+.logo{
+    background-color: crimson;
+    height:auto;
+    width:150px;
+    margin:5px;
+    position:relative;
+    right:200px;
+    
+}
+.navigators{
+    background-color: darkblue;
+    height:auto;
+    width:900px;
+    margin:5px;
+    position:relative;
+    left:200px;
+}
+.main{
+    background-color: yellow;
+    width:auto;
+    height:100%;
+    border:10px solid lightskyblue;
+}
+.maincont{
+    background-color: crimson;
+    margin:30px;
+    height:600px;
+    width:600px;
+    display:grid;
+    justify-content:center;
+    
+}
+.maincont p{
+    background-color: darkblue;
+    height:100px;
+    width:400px;
+    position:relative;
+    left:40px;
+}
+.maincont h1{
+    background-color: darkblue;
+    height:100px;
+    width:500px;
+}
+.maincont button{
+    background-color: darkblue;
+    height:100px;
+    width:200px;
+    position: relative;
+    left: 130px;
+}
+.mainc{
+    background-color: crimson;
+    margin-top:150px;
+}
+.main2{
+    background-color: yellow;
+    height:auto;
+    width:auto;
+    border:10px solid lightskyblue;
+}
+.about{
+    display:flex;
+    flex:2;
+    justify-content: space-evenly;
+    margin:30px;
+    column-gap: 10px;
+}
+.aboutimage{
+    height:600px;
+    background-color: blueviolet;
+    flex:1;
+    
+}
+.image{
+    background-color: darkblue;
+    height:500px;
+    width:700px;
+    position:relative;
+    left:70px;
+    top:50px;
+}
+.jumbtron{
+    background-color: crimson;
+    flex:1;
+    height:auto;
+}
+.jum{
+    background-color: crimson;
+    margin-top:150px;
+}
+.jum p{
+    background-color:darkblue ;
+    height:100px;
+    width:600px;
+    position:relative;
+    left:130px;
+}
+.jum h1{
+    background-color: darkblue;
+    height:100px;
+    width:650px;
+    position:relative;
+    left:100px;
+}
+.jum button{
+    background-color: darkblue;
+    height:100px;
+    width:400px;
+    position: relative;
+    left: 230px;
+}
+.main3{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.facility{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin:20px;
+}
+.ourfacility{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: blueviolet;
+    width:auto;
+    height:350px;
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+}
+.ourfacility p{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:darkblue;
+    height:100px;
+    width:600px;
+    margin:20px;
+    border-radius: 10px;
+    position:relative;
+    left:30px;
+}
+.ourfacility h3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:darkblue;
+    height:100px;
+    width:700px;
+   border-radius: 10px;
+}
+.coffee_varities{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: crimson;
+    height:auto;
+    width:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.coffee{
+    grid-template-columns: 1;
+    grid-column-end: 2;
+    background-color: aliceblue;
+    height:auto;
+    margin:25px;
+}
+.beans{
+    grid-template-columns: 2;
+    grid-column-end: 3;
+    background-color: aliceblue;
+    height:auto;
+    margin:25px;
+}
+.sweets{
+    grid-template-columns: 3;
+    grid-column-end: 4;
+    background-color: aliceblue;
+    height:auto;
+    margin:25px;
+}
+.rdcoffee{
+    grid-template-columns: 4;
+    grid-column-end: 5;
+    background-color: aliceblue;
+    height:auto;
+    margin:25px;
+}
+.coffee_varities h1{
+    background-color: darkblue;
+    height:200px;
+    width:auto;
+    margin:10px;
+}
+.coffee_varities h4{
+    background-color: darkblue;
+    height:90px;
+    width:300px;
+    margin:10px;
+    position:relative;
+    left:30px;
+    border-radius:30px;
+}
+.coffee_varities p{
+    background-color: darkblue;
+    height:100px;
+    width:auto;
+    margin:10px;
+    border-radius:30px;
+}
+.main4{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.popular_menu{
+    background-color: blueviolet;
+    margin: 10px;
+    height:auto;
+    width:auto;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.popular_menu p{
+    background-color: darkblue;
+    border-radius: 10px;
+    height:100px;
+    width:500px;
+}
+.popular_menu h3{
+    background-color: darkblue;
+    border-radius:10px;
+    height:100px;
+    width:550px;
+    position:relative;
+    right:20px;
+}
+.menu_varities{
+    background-color: crimson;
+    height:auto;
+    width:auto;
+    margin:10px;
+    gap:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.menu_varities p,h4{
+    background-color: darkblue;
+    height:auto;
+    width:auto;
+}
+.love_coffee{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 200px;
+}
+.cappucina{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+}
+.macha_coffee{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+}
+.frappuccino{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left:200px;
+    margin-bottom: 10px;
+}
+.black_coffee{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+    margin-bottom: 10px;
+}
+.heart_coffee{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+    margin-bottom: 10px;
+}
+.menu_varities p{
+    margin:10px;
+    height:200px;
+}
+.menu_varities h4{
+    margin:20px;
+    height:60px;
+    border-radius: 20px;
+}
+.main5{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.our_gallery{
+    background-color: blueviolet;
+    margin: 10px;
+    height:auto;
+    width:auto;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.our_gallery p{
+    background-color: darkblue;
+    border-radius: 10px;
+    height:100px;
+    width:500px;
+}
+.our_gallery h3{
+    background-color: darkblue;
+    border-radius:10px;
+    height:100px;
+    width:550px;
+    position:relative;
+    right:20px;
+}
+.menu_gallery{
+    background-color: crimson;
+    height:auto;
+    width:auto;
+    margin:10px;
+    gap:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.menu_gallery p{
+    background-color: darkblue;
+    height: 250px;
+    width:auto;
+    margin:20px;
+}
+.gallery_1{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 200px;
+}
+.gallery_2{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+}
+.gallery_3{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+}
+.gallery_4{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left:200px;
+    margin-bottom: 10px;
+}
+.gallery_5{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+    margin-bottom: 10px;
+}
+.gallery_6{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+    margin-bottom: 10px;
+}
+.main6{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.our_team{
+    background-color: blueviolet;
+    margin: 10px;
+    height:auto;
+    width:auto;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.our_team p{
+    background-color: darkblue;
+    border-radius: 10px;
+    height:100px;
+    width:500px;
+}
+.our_team h3{
+    background-color: darkblue;
+    border-radius:10px;
+    height:100px;
+    width:550px;
+    position:relative;
+    right:20px;
+}
+.members{
+    background-color: crimson;
+    height:auto;
+    width:auto;
+    margin:10px;
+    gap:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.members p,h4{
+    background-color: darkblue;
+    height:auto;
+    width:auto;
+}
+.john_1{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 200px;
+}
+.john_2{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+}
+.john_3{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+}
+.john_4{
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left:200px;
+    margin-bottom: 10px;
+}
+.john_5{
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-left: 90px;
+    margin-right:90px;
+    margin-bottom: 10px;
+}
+.john_6{
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height:300px;
+    width:auto;
+    margin-top:10px;
+    margin-right:200px;
+    margin-bottom: 10px;
+}
+.members p{
+    margin:10px;
+    height:200px;
+}
+.members h4{
+    margin:20px;
+    height:60px;
+    border-radius: 20px;
+}
+.contact{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.contact_us{
+    background-color: darkblue;
+    height:auto;
+    width:auto;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+.contact_us p{
+    background-color: aliceblue;
+    height:70px;
+    width:600px;
+    border-radius: 20px;
+}
+.contact_us h3{
+    background-color: aliceblue;
+    height:70px;
+    width:700px;
+    border-radius: 20px;
+    position:relative;
+    right:40px;
+}
+.g{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_image{
+    background-color: blueviolet;
+    height:auto;
+    width:900px;
+    margin:20px;
+}
+.form{
+    background-color: crimson;
+    height:auto;
+    width:900px;
+    margin:20px;
+}
+.contact_image p{
+    background-color: aliceblue;
+    height:500px;
+    width:auto;
+    margin:40px;
+}
+.form_group{
+    background-color: aliceblue;
+    height:500px;
+    width:auto;
+    margin:40px;
+}
+.contacticons{
+    background-color: yellow;
+    border:10px solid lightskyblue;
+    height:auto;
+    width:auto;
+}
+.contact_info{
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px;
+    height:auto;
+    width:auto;
+    gap:10px;
+    padding: 30px;
+}
+.email{
+    background-color: white;
+    height:auto;
+    width:auto;
+}
+.email p{
+    background-color: darkblue;
+    height:200px;
+    width:400px;
+    margin:10px;
+}
+.email h4{
+    background-color: darkblue;
+    height:70px;
+    width:350px;
+    margin:10px;
+    position:relative;
+    left:25px;
+    border-radius: 10px;
+}
+.email h5{
+    background-color: darkblue;
+    height:70px;
+    width:400px;
+    margin:10px;
+    border-radius: 10px;
+}
+.hours{
+    background-color: white;
+    height:auto;
+    width:auto;
+}
+.hours h1{
+    background-color: darkblue;
+    height:200px;
+    width:400px;
+    margin:10px;
+}
+.hours h4{
+    background-color: darkblue;
+    height:100px;
+    width:370px;
+    margin:10px;
+    border-radius: 10px;
+    position:relative;
+    left:15px;
+}
+.hours p{
+    background-color: darkblue;
+    height:100px;
+    width:400px;
+    margin:10px;
+    border-radius: 10px;
+}
+.location{
+    background-color: white;
+    height:auto;
+    width:auto;
+}
+.location h1{
+    background-color: darkblue;
+    height:200px;
+    width:400px;
+    margin:10px;
+}
+.location h4{
+    background-color: darkblue;
+    height:100px;
+    width:370px;
+    margin:10px;
+    border-radius: 10px;
+    position:relative;
+    left:15px;
+}
+.location p{
+    background-color: darkblue;
+    height:100px;
+    width:400px;
+    margin:10px;
+    border-radius: 10px;
+}
+.number{
+    background-color: white;
+    height:auto;
+    width:auto;    
+}
+.number p{
+    background-color: darkblue;
+    height:200px;
+    width:400px;
+    margin:10px;
+}
+.number h4{
+    background-color: darkblue;
+    height:70px;
+    width:350px;
+    margin:10px;
+    position:relative;
+    left:25px;
+    border-radius: 10px;
+}
+.number h5{
+    background-color: darkblue;
+    height:70px;
+    width:400px;
+    margin:10px;
+    border-radius: 10px;
+}
+.copy_right{
+    background-color: crimson;
+    width:auto;
+    height: 300px;
+    margin:20px;
+}
+.copy_right h6{
+    background-color: darkblue;
+    height:200px;
+    width:150vh;
+    position:relative;
+    left:250px;
+    top:45px;
+    border-radius: 40px;
+}
